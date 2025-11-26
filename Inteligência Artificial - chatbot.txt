@@ -1,0 +1,154 @@
+UNIFACC - União das Faculdades Católicas de Mato Grosso
+UNIFACC-VG
+Data de entrega: 28/11/2025 
+Curso: Administração/ Ciencia Contabeis 4º senestre
+Diciplina:  Inteligência Artificial e Análise de Dados para Decisão Empresaria
+Professor: Renato de Oliveira Rosa
+
+Academico:   
+Hadassa Amanda Pinto de Souza;    
+
+Janaina Gloria da Silva;
+Joseane Santana da Silva;
+Raissa Neves Malta
+Sônia Maria Santos da Silva
+Tamiane Almeida Silva	
+
+Ojetivo: iniciar a costrução do trabalho final, com base em um processo real.
+
+
+Atividade Proposta
+> Elaborar um ecboço do fluxo com estas, responsáveis e problemas percebidos.
+
+
+Título do Projeto
+ChurrosBot: Assistente Inteligente para Atendimento e Gestão de Pedidos
+
+Descrição do Processo Mapeado e Problema Identificado
+A empresa de churros gourmet recebe diariamente um grande volume de pedidos pelo WhatsApp. Esse atendimento é realizado manualmente, o que causa diversos problemas: demora nas respostas, dificuldade para organizar pedidos simultâneos, erros no registro das informações e sobrecarga no atendimento. Além disso, o negócio está crescendo, e a equipe não consegue responder com rapidez durante horários de pico, o que gera insatisfação no cliente e perda de vendas. Outro ponto observado é que muitos clientes fazem perguntas repetidas, como sabores disponíveis, valores e formas de pagamento, o que aumenta ainda mais o tempo de resposta.
+A empresa identificou a necessidade de automatizar o atendimento no WhatsApp para organizar o fluxo de pedidos e melhorar a experiência do cliente, sem depender exclusivamente de atendimento humano.
+
+Solução Proposta
+Para resolver o problema, será desenvolvido o ChurrosBot, um assistente inteligente capaz de realizar o atendimento inicial dos clientes via WhatsApp. O bot terá as seguintes funções:
+? Apresentar o cardápio de churros gourmet.
+? Separar e registrar os pedidos informados pelo cliente.
+? Informar os preços e opções disponíveis.
+? Solicitar e confirmar a forma de pagamento.
+? Registrar se o pedido será retirado no local (a empresa não realiza entregas).
+? Oferecer respostas rápidas para dúvidas frequentes.
+
+O ChurrosBot irá automatizar o processo, reduzindo o tempo de resposta, organizando os pedidos e garantindo um atendimento padronizado e eficiente. Ele servirá como apoio ao negócio, permitindo que a equipe foque somente na produção dos pedidos.
+
+
+Prompts ultilizado 
+Pode criar um chat boot de atendimento para a empresa Gourmet, segmento alimenticio, produto churros, Horario de atendimento das 9:40 as 17:00, contendo cardápio, uma pré celesao do cardápio, Não faz entregas, somente retiradas, forma de pagamento no cartão de crédito/débito,Pix e dinheiro, Endereço: Rua Camarões, s/n, Jardim dos Estados, em Várzea Grande - MT. O CEP é 78158-372, como se face o atendimento inicial.
+
+
+?? CHATBOT DE ATENDIMENTO – GOURMET CHURROS
+?? 1) MENSAGEM DE BOAS-VINDAS
+Olá! ???? 
+Seja bem-vindo(a) à *Gourmet*, especialista em churros fresquinhos e deliciosos! ???  
+
+? Horário de atendimento: das 09h40 às 17h00  
+?? Retiradas no endereço: Rua Camarões, s/n, Jardim dos Estados – Várzea Grande/MT  
+CEP: 78158-372
+
+Como posso te ajudar hoje?
+
+1?? Ver cardápio  
+2?? Fazer um pedido  
+3?? Formas de pagamento  
+4?? Endereço para retirada  
+5?? Horário de funcionamento  
+
+?? 2) CARDÁPIO COMPLETO – GOURMET
+?? *CARDÁPIO GOURMET – CHURROS*
+
+
+? Churros Tradicionais  
+
+• Doce de Leite – R$ 7,00  
+• Brigadeiro – R$ 7,00  
+• Ninho – R$ 8,00  
+• Nutella – R$ 10,00  
+
+
+
+
+? Churros Gourmet – Recheio Duplo 
+
+• Doce de Leite – R$ 12,00  
+• Brigadeiro – R$ 12,00  
+• Ninho – R$ 12,00  
+• Nutella – R$ 15,00  
+*Digite "menu" para voltar ao início.*
+
+
+??? 3) PRÉ-SELEÇÃO DO CARDÁPIO
+Após o cliente escolher 2 – Fazer um pedido:
+Perfeito! ??  
+Qual categoria você deseja?
+
+A) Churros Tradicional  
+B) Churros Gourmet  
+
+?? 4) ESCOLHA DE SABORES
+A) Churros Tradicional
+Escolha o sabor:
+1 — Doce de Leite  
+2 — Brigadeiro  
+3 — Ninho
+4 — Nutella
+
+B) Churros Gourmet – Recheio Duplo 
+Escolha o sabor:
+1 — Doce de Leite  
+2 — Brigadeiro  
+3 — Ninho
+4 — Nutella
+ 
+?? 5) QUANTIDADE
+Após escolher sabor:
+Quantas unidades deseja? ??
+?? 6) FORMA DE RETIRADA
+A empresa NÃO faz entrega, então o fluxo é objetivo:
+Perfeito!  
+Lembrando que trabalhamos apenas com *retirada no local*.
+
+?? Nosso endereço é:  
+Rua Camarões, s/n, Jardim dos Estados, Várzea Grande – MT  
+CEP: 78158-372
+
+Qual nome para separarmos seu pedido?
+
+?? 7) FORMAS DE PAGAMENTO
+
+Como deseja pagar?
+1?? Pix  
+2?? Cartão (crédito/débito)  
+3?? Dinheiro  
+
+?? 8) CONFIRMAÇÃO DO PEDIDO
+Pedido confirmado! ??  
+
+? Estará pronto em alguns minutos.  
+?? Retirada no endereço: Rua Camarões, s/n – Jardim dos Estados – Várzea Grande/MT  
+
+Muito obrigado por escolher a *Gourmet*!  
+Estamos preparando tudo com muito carinho ???
+
+? 9) HORÁRIO DE ATENDIMENTO
+Nosso horário de atendimento é:  
+? De segunda a sábado, das 09h40 às 17h00.
+
+Estamos à disposição! ??
+
+?? 10) ENDEREÇO (caso o cliente clique na opção 4)
+?? Endereço para retirada:  
+Rua Camarões, s/n  
+Jardim dos Estados  
+Várzea Grande – MT  
+CEP: 78158-372
+
+Estamos te esperando! ????
+
